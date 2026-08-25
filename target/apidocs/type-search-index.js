@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"fasthtml","l":"Demo"},{"p":"fasthtml","l":"FastHTML","k":"10"},{"p":"fasthtml","l":"HTMLToken","k":"11"},{"p":"fasthtml","l":"FastHTML.SafetyProfile","k":"9"},{"p":"fasthtml","l":"HTMLToken.TokenType","k":"9"}];updateSearchResults();
