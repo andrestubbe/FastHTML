@@ -1,0 +1,6 @@
+LIBRARY fasthtml
+EXPORTS
+    Java_fasthtml_FastHTMLImpl_nativeSanitize
+    Java_fasthtml_FastHTMLImpl_nativeSanitizeAddress
+    Java_fasthtml_FastHTMLImpl_nativeTokenize
+    Java_fasthtml_FastHTMLImpl_nativeHasAVX2
