@@ -53,6 +53,7 @@ public class Demo {
 - [API Quick Reference](#api-quick-reference)
 - [Technical Examples & Hero Demos](#technical-examples--hero-demos)
 - [Installation](#installation)
+- [Documentation](#documentation)
 - [License](#license)
 
 ---
@@ -203,6 +204,16 @@ Download the latest JARs directly:
 
 1. 📦 **[FastHTML-0.1.0.jar](https://github.com/andrestubbe/FastHTML/releases/download/v0.1.0/FastHTML-0.1.0.jar)** (The Core Library)
 2. ⚙️ **[fastcore-0.1.0.jar](https://github.com/andrestubbe/FastCore/releases/download/0.1.0/fastcore-0.1.0.jar)** (Native JNI Loader)
+
+---
+
+## Documentation
+
+* **[REFERENCE.md](docs/REFERENCE.md)**: Full API reference and method signatures.
+* **[PHILOSOPHY.md](docs/PHILOSOPHY.md)**: Architectural design principles and vector model.
+* **[CHANGELOG.md](docs/CHANGELOG.md)**: Release history and version notes.
+* **[ROADMAP.md](docs/ROADMAP.md)**: Future milestones and planned features.
+* **[COMPILE.md](docs/COMPILE.md)**: Instructions for compiling from source.
 
 ---
 
