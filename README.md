@@ -197,6 +197,13 @@ dependencies {
 }
 ```
 
+### Option 3: Direct Download (No Build Tool)
+
+Download the latest JARs directly:
+
+1. 📦 **[FastHTML-0.1.0.jar](https://github.com/andrestubbe/FastHTML/releases/download/v0.1.0/FastHTML-0.1.0.jar)** (The Core Library)
+2. ⚙️ **[fastcore-0.1.0.jar](https://github.com/andrestubbe/FastCore/releases/download/0.1.0/fastcore-0.1.0.jar)** (Native JNI Loader)
+
 ---
 
 ## License
