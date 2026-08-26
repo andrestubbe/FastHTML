@@ -80,7 +80,7 @@ Traditional Java HTML sanitizers (like Jsoup or OWASP Java HTML Sanitizer) const
   - `RELAXED`: Preserves layout and custom tags while scrubbing dangerous active blocks (`<script>`, `<style>`, `<iframe>`, etc.).
   - `TEXT_ONLY`: Strips all HTML markup, leaving only raw clean text.
 - **🚫 Active XSS Neutralization**: Automatically identifies and eliminates inline event handlers (`on*`) and malicious URI schemes (`javascript:`).
-- **📦 Zero-Heap Native Interop**: Fully integrated with `FastCore`, `FastPointer`, `FastMemory`, `FastSIMD`, and `FastANSI`.
+- **📦 Zero-Heap Native Interop**: Fully integrated with `FastCore`, `FastPointer`, `FastMemory`, and `FastSIMD`.
 
 ---
 

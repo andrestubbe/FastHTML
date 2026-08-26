@@ -1,6 +1,5 @@
 package fasthtml;
 
-import fastansi.FastANSI;
 import fastpointer.Pointer;
 
 import java.nio.charset.StandardCharsets;
@@ -108,29 +107,29 @@ public class Demo {
 
         for (String pat : dangerousPatterns) {
             if (res.contains(pat)) {
-                res = res.replace(pat, FastANSI.FG_BRIGHT_RED + FastANSI.STRIKETHROUGH + pat + FastANSI.RESET + " " + red("[STRIPPED]"));
+                res = res.replace(pat, "\u001B[91m\u001B[9m" + pat + "\u001B[0m " + red("[STRIPPED]"));
             }
         }
         return res;
     }
 
     private static String darkGray(String text) {
-        return FastANSI.fg(240) + text + FastANSI.RESET;
+        return "\u001B[38;5;240m" + text + "\u001B[0m";
     }
 
     private static String white(String text) {
-        return FastANSI.FG_BRIGHT_WHITE + text + FastANSI.RESET;
+        return "\u001B[97m" + text + "\u001B[0m";
     }
 
     private static String boldWhite(String text) {
-        return FastANSI.BOLD + FastANSI.FG_BRIGHT_WHITE + text + FastANSI.RESET;
+        return "\u001B[1m\u001B[97m" + text + "\u001B[0m";
     }
 
     private static String green(String text) {
-        return FastANSI.FG_BRIGHT_GREEN + text + FastANSI.RESET;
+        return "\u001B[92m" + text + "\u001B[0m";
     }
 
     private static String red(String text) {
-        return FastANSI.FG_BRIGHT_RED + text + FastANSI.RESET;
+        return "\u001B[91m" + text + "\u001B[0m";
     }
 }
