@@ -1,6 +1,6 @@
-# FastHTML 0.1.0 [ALPHA] — Native AVX2 HTML Sanitizer, Lexer & Tokenizer Pipeline
+# FastHTML 0.1.1 [ALPHA] — Native AVX2 HTML Sanitizer, Lexer & Tokenizer Pipeline
 
-[![Status](https://img.shields.io/badge/status-0.1.0-brightgreen.svg)](https://github.com/andrestubbe/FastHTML/releases/tag/v0.1.0)
+[![Status](https://img.shields.io/badge/status-0.1.1-brightgreen.svg)](https://github.com/andrestubbe/FastHTML/releases/tag/0.1.1)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java](https://img.shields.io/badge/Java-17+-blue.svg)](https://www.java.com)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010+-lightgrey.svg)]()
@@ -175,12 +175,27 @@ Benchmarked on **JDK 26 HotSpot 64-Bit (AVX2 Enabled)** measuring throughput on 
     <dependency>
         <groupId>com.github.andrestubbe</groupId>
         <artifactId>FastHTML</artifactId>
-        <version>0.1.0</version>
+        <version>0.1.1</version>
     </dependency>
     <dependency>
         <groupId>com.github.andrestubbe</groupId>
         <artifactId>FastCore</artifactId>
         <version>0.1.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.github.andrestubbe</groupId>
+        <artifactId>FastPointer</artifactId>
+        <version>0.1.1</version>
+    </dependency>
+    <dependency>
+        <groupId>com.github.andrestubbe</groupId>
+        <artifactId>FastMemory</artifactId>
+        <version>0.1.1</version>
+    </dependency>
+    <dependency>
+        <groupId>com.github.andrestubbe</groupId>
+        <artifactId>FastSIMD</artifactId>
+        <version>0.1.3</version>
     </dependency>
 </dependencies>
 ```
@@ -193,8 +208,11 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.andrestubbe:FastHTML:0.1.0'
+    implementation 'com.github.andrestubbe:FastHTML:0.1.1'
     implementation 'com.github.andrestubbe:FastCore:0.1.0'
+    implementation 'com.github.andrestubbe:FastPointer:0.1.1'
+    implementation 'com.github.andrestubbe:FastMemory:0.1.1'
+    implementation 'com.github.andrestubbe:FastSIMD:0.1.3'
 }
 ```
 

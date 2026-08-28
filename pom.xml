@@ -7,7 +7,7 @@
 
     <groupId>com.github.andrestubbe</groupId>
     <artifactId>FastHTML</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <packaging>jar</packaging>
 
     <name>FastHTML</name>
@@ -54,28 +54,28 @@
         <dependency>
             <groupId>com.github.andrestubbe</groupId>
             <artifactId>FastCore</artifactId>
-            <version>main-SNAPSHOT</version>
+            <version>0.1.0</version>
         </dependency>
 
         <!-- FastPointer - Zero-overhead native address arithmetic -->
         <dependency>
             <groupId>com.github.andrestubbe</groupId>
             <artifactId>FastPointer</artifactId>
-            <version>main-SNAPSHOT</version>
+            <version>0.1.1</version>
         </dependency>
 
         <!-- FastMemory - Off-heap RAM buffers -->
         <dependency>
             <groupId>com.github.andrestubbe</groupId>
             <artifactId>FastMemory</artifactId>
-            <version>main-SNAPSHOT</version>
+            <version>0.1.1</version>
         </dependency>
 
         <!-- FastSIMD - Hardware vector SIMD engine -->
         <dependency>
             <groupId>com.github.andrestubbe</groupId>
             <artifactId>FastSIMD</artifactId>
-            <version>main-SNAPSHOT</version>
+            <version>0.1.3</version>
         </dependency>
 
         <dependency>
