@@ -71,6 +71,13 @@ Traditional Java HTML sanitizers (like Jsoup or OWASP Java HTML Sanitizer) const
 2. **Zero-Copy Memory Addressing**: Directly cleans HTML buffers in off-heap memory via `FastPointer` and `FastMemory`.
 3. **No Heavyweight AST Construction**: Sanitizes and tokenizes inline in a single linear pass with predictable sub-microsecond execution time.
 
+| Feature | Jsoup (Whitelist) | OWASP Java HTML Sanitizer | FastHTML |
+|:---|:---|:---|:---|
+| **Lexing Engine** | Scalar char-by-char loop | RegEx & SAX token stream | **256-bit AVX2 SIMD vector scan** |
+| **DOM Construction** | Full DOM tree on heap | Streaming events / objects | **Single-pass 0-DOM linear scan** |
+| **Execution Latency** | Milliseconds per page | Hundreds of microseconds | **Sub-microsecond (< 1 µs token loop)**|
+| **Memory Allocation** | Heavy Element / Node tree | High event object churn | **Zero GC (Off-heap memory buffers)** |
+
 ---
 
 ## Key Features
